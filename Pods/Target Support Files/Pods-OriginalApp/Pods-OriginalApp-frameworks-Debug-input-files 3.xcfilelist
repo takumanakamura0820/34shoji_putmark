@@ -1,0 +1,17 @@
+${PODS_ROOT}/Target Support Files/Pods-OriginalApp/Pods-OriginalApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework
+${BUILT_PRODUCTS_DIR}/DKCamera/DKCamera.framework
+${BUILT_PRODUCTS_DIR}/DKImagePickerController/DKImagePickerController.framework
+${BUILT_PRODUCTS_DIR}/DKPhotoGallery/DKPhotoGallery.framework
+${BUILT_PRODUCTS_DIR}/DTGradientButton/DTGradientButton.framework
+${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework
+${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework
+${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework
+${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
+${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework
+${BUILT_PRODUCTS_DIR}/UITextViewPlaceholder/UITextViewPlaceholder.framework

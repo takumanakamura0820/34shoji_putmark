@@ -1,0 +1,130 @@
+PODS:
+  - CropViewController (2.5.5)
+  - DKCamera (1.6.7)
+  - DKImagePickerController (4.3.2):
+    - DKImagePickerController/Camera (= 4.3.2)
+    - DKImagePickerController/Core (= 4.3.2)
+    - DKImagePickerController/ImageDataManager (= 4.3.2)
+    - DKImagePickerController/InlineCamera (= 4.3.2)
+    - DKImagePickerController/PhotoEditor (= 4.3.2)
+    - DKImagePickerController/PhotoGallery (= 4.3.2)
+    - DKImagePickerController/Resource (= 4.3.2)
+  - DKImagePickerController/Camera (4.3.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.3.2):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.2)
+  - DKImagePickerController/InlineCamera (4.3.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.3.2):
+    - CropViewController (~> 2.5)
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoGallery (4.3.2):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.2)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DTGradientButton (0.1.3)
+  - FDFullscreenPopGesture (1.1)
+  - FSCalendar (2.8.1)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - NCMB (3.1.0)
+  - NYXImagesKit (2.3)
+  - PKHUD (5.3.0)
+  - RAMAnimatedTabBarController (5.2.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - SwiftDate (4.4.2)
+  - SwiftyGif (5.3.0)
+  - UITextViewPlaceholder (0.0.1)
+
+DEPENDENCIES:
+  - DKImagePickerController
+  - DTGradientButton
+  - FDFullscreenPopGesture
+  - FSCalendar
+  - Kingfisher (~> 5.0)
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
+  - NYXImagesKit
+  - PKHUD (~> 5.0)
+  - RAMAnimatedTabBarController
+  - SwiftDate (~> 4.4.0)
+  - UITextViewPlaceholder
+
+SPEC REPOS:
+  trunk:
+    - CropViewController
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - DTGradientButton
+    - FDFullscreenPopGesture
+    - FSCalendar
+    - Kingfisher
+    - NYXImagesKit
+    - PKHUD
+    - RAMAnimatedTabBarController
+    - SDWebImage
+    - SwiftDate
+    - SwiftyGif
+    - UITextViewPlaceholder
+
+EXTERNAL SOURCES:
+  NCMB:
+    :branch: develop
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: c9d038fb4ec82dcecedb4ce15c38b869cbebebf4
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  CropViewController: bd3ff11eeeaadc1e267bb9c3f3e9ee67a52d3285
+  DKCamera: a902b66921fca14b7a75266feb8c7568aa7caa71
+  DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  DTGradientButton: 6f0f696cd433255d226c05e4ab047d991d13d4ef
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  SwiftDate: 131cf2f09b390f0a07f0099e36005ffe2fbf4c7e
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
+  UITextViewPlaceholder: 223776dc658bbd4152372be02dfa1db9152aceb8
+
+PODFILE CHECKSUM: 865132daca378449d0af1e1e7b25b82d227d297c
+
+COCOAPODS: 1.9.3
